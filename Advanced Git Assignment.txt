@@ -1,0 +1,126 @@
+TASK 1: CLONING AND FORKING
+ 1. Cloning a Repository
+1. Choose a public GitHub repository of interest.
+   - Repository URL: `https://github.com/ditdot-dev/vue-flow-form’
+2. Clone the repository to your local machine:
+   
+   git clone https://github.com/ditdot-dev/vue-flow-form   
+
+3. Explore the repository's structure, files, and history:
+   - Navigate into the repository:
+     cd public
+     
+   - List the files:
+     Ls
+ 
+   - View the commit history:
+     git log
+ 
+
+ 2. Forking a Repository
+1. Fork the repository:
+   - Go to the repository page on GitHub (`https://github.com/ditdot-dev/vue-flow-form’)
+   - Click the "Fork" button in the top-right corner.
+
+2. Clone the forked repository to your local machine:
+   - Get the URL of your forked repository, e.g. `https://github.com/faithckip/vue-flow-form.git`.
+   git clone https://github.com/faithckip/vue-flow-form.git
+
+ Task 2: Managing Branches
+
+ 3. Creating and Switching Branches
+1. Create a new branch:
+   
+   git checkout -b feature-update
+ Switched to a new branch 'feature-update'
+2. Verify you are on the new branch:
+   git branch
+ 
+4. Making Changes and Committing
+1. Make changes to a file or add a new file:
+create a new file, e.g., `newfile.txt`.
+
+2. Stage the changes:
+  
+git add newfile.txt
+  
+3. Commit the changes:
+   git commit -m "Added newfile.txt"
+ 
+5. Merging Changes
+1. Switch back to the main branch:
+   git checkout main
+2. Merge the changes from `feature-update` into `main`:
+   git merge feature-update
+ 
+ Task 3: Handling Conflicts
+
+6. Creating Conflicts
+1. Make changes to the same file (e.g., `README.md`) in the forked repository on GitHub.
+
+2. Commit the changes directly on GitHub.
+
+ 7. Resolving Conflicts
+1. Pull the changes from the remote repository:
+   
+   git pull origin main
+
+2. Create a new branch to resolve the conflict:
+   git checkout -b resolve-conflict
+  3. Resolve the conflict manually by editing the file.
+
+4. Stage the resolved file:
+  
+   git add README.md
+
+5. Commit the changes:
+  
+   git commit -m "Resolved merge conflict in README.md"
+  
+6. Switch back to `main` and merge the conflict-resolving branch:
+   
+   git checkout main
+   git merge resolve-conflict
+  
+Task 4: GitHub Pages
+8. Enabling GitHub Pages
+1. Create a simple HTML file (e.g., `index.html`):
+    
+  
+
+2. Add and commit the `index.html` file:
+   git add index.html
+   git commit -m "Added index.html for GitHub Pages"
+
+3. Push the changes to GitHub:
+   
+   git push origin master
+
+4. Enable GitHub Pages:
+   - Go to the repository settings on GitHub.
+   - Scroll down to the "GitHub Pages" section.
+   - Select the source branch as `main` and save.
+
+9. Accessing the Published Page
+1. Visit the GitHub Pages URL, which is typically:
+`https://github.com/ditdot-dev/vue-flow-form’ 
+
+2. Verify that the HTML file is accessible online.
+
+Task 5: Open Source Exploration
+
+10. Exploring Open Source Projects
+1. Search for an open-source project on GitHub related to your interests.
+   - Use the GitHub search functionality and filters.
+
+2. Explore the project's documentation, issues, and contribution guidelines:
+   - Read the `README.md`, `CONTRIBUTING.md`, and other documentation files.
+   - Browse through the open issues to understand the project's needs and problems.
+
+ 11. Opening an Issue
+1. Open a new issue in the chosen Vue-flow-form project:
+   - Go to the "Issues" tab of the repository.
+   - Click on "New issue".
+   - Provide a descriptive title and detailed description, suggesting an improvement, reporting a bug, or asking for clarification.
+   - Submit the issue.
+
